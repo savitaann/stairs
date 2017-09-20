@@ -1,59 +1,131 @@
-<!doctype html>
+body, ul, h1, li, a, p, div{
+    margin: 0;
+    padding:0;
+    font-size: 100%;      
+}
 
-<html lang="en US">
-    
-    <head>
-        <title>Stairs</title>
-            <meta charset="utf-8">
-                <link rel="stylesheet" href="css/metal.css" type="text/css">
-        
-       <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    </head>
-    
-    <body>
-        
-         <nav>
-            <h1>Metal</h1>
-             
-             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="stone.html">Stone Stairs Gallery</a></li>
-                <li><a href="metal.html">Metal Stairs Gallery</a></li>
-                <li><a href="wood.html">Wood Stairs Gallery</a></li>      
-            </ul>
-             
-          </nav>  
-		
-		<div id="stone">
-			
-			       
-				<div id="img1"> 
-					<img id="pic1" src="image/spiral-2387348_1920.jpg" alt="rusted metal spiral stairs">
-				</div>
-			
-						
-					<div id="img4"> 
-						<img id="pic4" src="image/stairs-1229149_1920.jpg">
-					</div>
-			
-			<section class="sec1">
-					<div id="img2"> 
-						<img id="pic2" src="image/escalator-2601957_1920.jpg" alt="escalator">
-					</div>
-					<div id="img3"> 
-						<img id="pic3" src="image/new-york-1062090_1920.jpg" alt="New York fire escape">
-					</div>
-			</section>	
-  
-		
-		
-		
+body{
+    background-image: url(../image/stairs-842446_1920.jpg);
+    background-size:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-				
-			
-			
-	</div>
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-align:right;
+    justify-content:flex-end;    
+}
+
+li{
+    width:155px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.22em;
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+a:visited{
+    color:gray;
+}
+
+h1{
+    padding-top:.5px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#stone{
+	display: flex;
+}
+
+#img1{
+	display: flex;
+	width:320px;
+	height:419px;
+	margin-top: 4em;
+	margin-left: 1em;
+	background-color:hsla(0, 0%, 100%, .2);	
+	border:2px solid black;
+}
+
+#pic1{
+	padding-top: .6em;
+	padding-left: .65em;
+	width:300px;
+	height:399px;
+}
+
+
+#img2{
+	margin-left: .8em;
+	display: flex;
+	width:410px;
+	height:270px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic2{
 	
-	</body>
-</html>
+	padding-top: .6em;
+	padding-left: .6em;
+	width:390px;
+	height:250px;
+}
+
+#img3{
+	margin-top: .5em;
+	margin-left: .5em;
+	width:420px;
+	height:270px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic3{
+	
+	padding-top: .6em;
+	padding-left: .5em;
+	width:400px;
+	height:250px;
+}
+
+.sec2{
+	width:450px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1em;
+	
+}
+
+#img4{
+	margin-top: 2.5em;
+	margin-left: .5em;
+	width:395px;
+	height:470px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic4{
+	width:375px;
+	height: 450px;
+	padding-top: .6em;
+	padding-left: .6em;
+}
