@@ -1,0 +1,74 @@
+body, ul, h1, li, a, p, div{
+    margin: 0;
+    padding:0;
+    font-size: 100%;      
+}
+
+body{
+    background-image: url(../image/stairs-842446_1920.jpg);
+    background-size:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    text-align:right;
+    justify-content:flex-end;
+    
+}
+
+li{
+    width:155px;
+    
+   
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.22em;
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+a:visited{
+    color:gray;
+}
+
+h1{
+    padding-top:.5px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 23px;
+    padding-right: 5px;
+    font-size: 1.06em;
+}
+
+section{
+    padding-top: 95px;
+}
+
+div{
+    background-color: hsla(216, 3%, 47%, 0.30);
+    width: 375px;
+    height: 375px;
+    margin-left: 43em;
+    border-radius: 375px;
+}

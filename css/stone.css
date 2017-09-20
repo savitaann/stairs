@@ -1,0 +1,171 @@
+body, ul, h1, li, a, p, section, div, img{
+    margin: 0;
+    padding:0;
+    font-size: 100%;      
+}
+
+body{
+    background-image: url(../image/stairs-842446_1920.jpg);
+    background-size:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-align:right;
+    justify-content:flex-end;
+    
+}
+
+li{
+    width:155px;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.22em;
+    color: white;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+a:hover{
+    color:darkblue;
+}
+
+a:visited{
+    color:gray;
+}
+
+h1{
+    padding-top:.5px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#stone{
+	display: flex;
+}
+
+.sec1{
+	margin-left: 2em;
+	width:400px
+	display: flex;
+}
+
+
+
+#img1{
+	display: flex;
+	width:410px;
+	height:260px;
+	background-color:hsla(0, 0%, 100%, .2);	
+	border:2px solid black;
+}
+
+#pic1{
+	padding-top: .6em;
+	padding-left: .65em;
+	width:390px;
+	height:240px;
+}
+
+
+#img2{
+	margin-left: 1em;
+	display: flex;
+	width:280px;
+	height:490px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic2{
+	
+	padding-top: .6em;
+	padding-left: .6em;
+	width:260px;
+	height:470px;
+}
+
+#img3{
+	margin-top: .5em;
+	margin-left: 1em;
+	width:370px;
+	height:220px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic3{
+	
+	padding-top: .65em;
+	padding-left: .65em;
+	width:350px;
+	height:200px;
+}
+
+.sec2{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1em;
+	width:500px;
+}
+
+#img4{
+	margin-left: .5em;
+	width:470px;
+	height:220px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic4{
+	width:450px;
+	height:200px;
+	padding-top: .6em;
+	padding-left: .6em;
+}
+
+#img5{
+	margin-left: 1em;
+	margin-top: .5em;
+	width:220px;
+	height:295px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic5{
+	width:200px;
+	height:275px;
+	padding-top: .6em;
+	padding-left: .6em;
+}
+
+#img6{
+	margin-left: 1.55em;
+	margin-top: .5em;
+	width:220px;
+	height:295px;
+	background-color:hsla(0, 0%, 100%, .2);
+	border:1px solid black;	
+}
+
+#pic6{
+	width:200px;
+	height:275px;
+	padding-top: .55em;
+	padding-left: .55em;
+}
+
